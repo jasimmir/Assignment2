@@ -1,3 +1,71 @@
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color:silver;
+    padding: 0 50px 0 50px;
+}
+.logo{
+ /*color: red;*/
+}
+.logo img{
+    width: 150px;
+    height: 50px;  
+    cursor: pointer;  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    z-index: 1;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    }
+nav-menu ul li{
+    letter-spacing: 1rem;
+}
+.nav-menu ul li a {
+    text-decoration: none;
+    margin: 3px;
+    padding: 10px;
+    display: flex;
+    font-weight: normal;
+    color:gray;
+    letter-spacing: 1px;
+    font-size: 15px;
+    
+}
+.nav-menu ul li a:hover{
+    background-color: skyblue;
+    border-radius: 5px;
+    color: white;
+}
+.get-touch{
+    padding: 5px;
+    font-weight: normal;
+    color:gray;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.get-touch:hover{
+    background-color: skyblue;
+    border-radius: 5px;
+    color: white;
 }
