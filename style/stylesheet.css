@@ -10,6 +10,7 @@ header{
     height: 55px;
     background-color:silver;
     padding: 0 50px 0 50px;
+    position: fixed;    
 }
 .logo{
  /*color: red;*/
@@ -68,4 +69,18 @@ nav-menu ul li{
     background-color: skyblue;
     border-radius: 5px;
     color: white;
+}
+.main-container{
+    background-color: green;
+    width:100%;
+}
+.main-container div{
+
+}
+.left-content{
+    display: flex;
+}
+.right-content{
+    display: flex;
+    justify-content: space-between;
 }
