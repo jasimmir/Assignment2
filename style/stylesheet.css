@@ -4,6 +4,8 @@
 }
 body{
     width: 100%;
+    background-color: lavender;
+    font-family: sans-serif;
 }
 header{
     width: 100%;
@@ -25,17 +27,18 @@ nav{
     align-items: center;
     justify-content: space-around;
     position: fixed;
-    left: 0px;
-    top: 0px;
-    width:100%;
+     left:0px;
+     top: 0px;
+     width: 100%;
     z-index: 1;
-}
+    }
 .nav-menu ul{
     display: flex;
+    justify-content: space-around;
     list-style: none;
     text-transform: uppercase;
-    }
-nav-menu ul li{
+}
+.nav-menu ul li{
     letter-spacing: 1rem;
 }
 .nav-menu ul li a {
@@ -71,8 +74,19 @@ nav-menu ul li{
     color: white;
 }
 .main-container{
-    background-color: green;
-    width:100%;
+   /*display: flex;
+    justify-content: space-between;
+    width:100%;*/
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    /* Figure this out! (Advanced) */
+    position: absolute;
+    left: 50%;
+
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .main-container div{
 
@@ -80,7 +94,32 @@ nav-menu ul li{
 .left-content{
     display: flex;
 }
+.left-content img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
 .right-content{
-    display: flex;
-    justify-content: space-between;
+    padding-left: 50px;  
+}
+.right-content p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.title-name{
+    color: gray;
+    font-size: 29px;
+}
+.name{
+    text-decoration: underline;
+}
+.contact-us{
+    background-color: midnightblue;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 50px 10px 50px;
+    border-color: midnightblue;
+    border-radius: 5px;
+    border-style: none;
 }
